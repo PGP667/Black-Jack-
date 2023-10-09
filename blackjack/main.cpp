@@ -12,19 +12,14 @@ using Dictionary = std::map<int , std::pair<int, string>> ;
 Dictionary creerdico()
 {
     Dictionary dico;
-    //on crée les cartes de 2 à roi pour les coeurs
-    dico[2] = std::make_pair(2, "ascii");
-    dico[3] = std::make_pair(3, "ascii");
-    dico[4] = std::make_pair(4, "ascii");
-
-    //ici les carreaux
-
-    //ici les pics
-
-    //ici les trèfles
-
+    int V ;
+    int R ;
+    int D ;
+    dico={2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9,10:10,V:10,D:10,R:10}
     return dico;
 }
+
+
 
 int main() {
     Dictionary dico = creerdico();
